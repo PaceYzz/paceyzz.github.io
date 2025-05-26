@@ -1,83 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>test1</title>
-      <link href="/2025/05/23/test1/"/>
-      <url>/2025/05/23/test1/</url>
-      
-        <content type="html"><![CDATA[<h1 id="1111-test"><a href="#1111-test" class="headerlink" title="1111-test"></a>1111-test</h1>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2025/05/23/test/"/>
-      <url>/2025/05/23/test/</url>
-      
-        <content type="html"><![CDATA[<h6 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h6>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2025/05/22/hello-world/"/>
-      <url>/2025/05/22/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>保姆级使用宝塔部署前后端分离项目</title>
-      <link href="/2025/05/07/%E4%BF%9D%E5%A7%86%E7%BA%A7%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%83%A8%E7%BD%B2%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/"/>
-      <url>/2025/05/07/%E4%BF%9D%E5%A7%86%E7%BA%A7%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%83%A8%E7%BD%B2%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
-      
-        <content type="html"><![CDATA[<h1 id="服务器安装宝塔面板"><a href="#服务器安装宝塔面板" class="headerlink" title="服务器安装宝塔面板"></a>服务器安装宝塔面板</h1><h2 id="安装-Python"><a href="#安装-Python" class="headerlink" title="安装 Python"></a>安装 Python</h2><p><strong>若安装报错没有</strong><code>Python</code><strong>的话需要先安装</strong><code>Python</code></p><p>输入以下命令检查是否已经安装 <code>Python3</code>：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 --version</span><br></pre></td></tr></table></figure><ul><li><font style="color:rgba(0, 0, 0, 0.75);">如果输出显示 Python 版本号（例如 </font><code>Python 3.8.10 或 Python 3.10.12</code><font style="color:rgba(0, 0, 0, 0.75);">），说明系统已安装 Python 3。</font></li><li><font style="color:rgba(0, 0, 0, 0.75);">如果显示错误信息（如 </font>&#96;command not found），则需要安装 Python 3。</font></li></ul><p><strong><font style="color:rgb(79, 79, 79);">使用 APT 从默认存储库安装 </font></strong><code>Python 3</code></p><ol><li><font style="color:rgb(79, 79, 79);">更新系统包列表：</font></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure><ol start="2"><li><font style="color:rgb(79, 79, 79);">安装 </font>&#96;Python 3：</font></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install python3 -y</span><br></pre></td></tr></table></figure><ol start="3"><li><font style="color:rgb(79, 79, 79);">验证安装</font></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 --version</span><br></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746518915920-31242b89-0c46-4545-b585-2d01d95674dd.png"></p><h2 id="安装宝塔面板"><a href="#安装宝塔面板" class="headerlink" title="安装宝塔面板"></a>安装宝塔面板</h2><ol><li>我服务器安装的是<code>Ubuntu 20.04</code>系统，对应的系统安装命令可以去 <a href="https://www.bt.cn/new/download.html">宝塔面板</a> 获取</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh &amp;&amp; sudo bash install_panel.sh ed8484bec</span><br></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746518782565-a6a5d37d-9a0c-4e0e-a14d-f51ee5239f16.png"></p><ol start="2"><li>安装完成之后会给出安装完成信息</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746519464873-13b3dda3-1215-4df9-8282-c2449396952a.png"></p><ol start="3"><li>去服务器安全组控制台放行端口</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746519638222-13aadf61-8d9e-40be-9df0-31adcddcec63.png"></p><ol start="4"><li>到这里我们就可以访问外网 ipv4 面板地址根据账号和密码进行登录宝塔面板了</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746519756738-5217f91f-d951-4ef9-a346-d3cf04ce07d2.png"></p><h2 id="配置宝塔面板"><a href="#配置宝塔面板" class="headerlink" title="配置宝塔面板"></a>配置宝塔面板</h2><ol><li>找到软件商店，安装这些软件<ol><li>根据自己的需求选择安装软件，这里只是以我的需求为例</li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746520123014-de3328f7-c308-48ba-bc75-0411da40bf28.png"></p><ol start="2"><li>宝塔和服务器安全组都需要对我们所需的端口进行放行</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746520090452-5826da53-f667-49aa-8386-1bea4b35dbf4.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746520167125-e21b82c8-ef12-4ce6-b9ea-55c8af1abfb6.png"></p><p>现在宝塔的配置基本上差不多了，接下里就是部署项目了</p><h1 id="部署后端项目"><a href="#部署后端项目" class="headerlink" title="部署后端项目"></a>部署后端项目</h1><h2 id="修改后端配置文件"><a href="#修改后端配置文件" class="headerlink" title="修改后端配置文件"></a>修改后端配置文件</h2><ol><li>新建一个 <code>application-prod.yml</code>线上配置文件<ol><li>指定线上环境运行端口和配置文件所处环境</li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746520826345-12e894a3-ff9f-4ec4-9b03-cc6b9a1f1c28.png"></p><ol start="2"><li>将之前的<code>application.yml</code>配置文件改为 <code>application-dev.yml</code>作为本地运行环境的配置文件<ol><li>指定本地运行环境端口和指定该配置文件所处环境，参考上方图片</li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746520967072-e15b5a20-2459-4601-8043-3d0f7a5b1a7d.png"></p><ol start="3"><li>新建<code>application.yml</code>配置文件用于指定使用具体的配置文件</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521068615-9067f7bf-b86a-4bb4-92eb-0f49d6dd9788.png"></p><h2 id="现在进行项目的打包"><a href="#现在进行项目的打包" class="headerlink" title="现在进行项目的打包"></a>现在进行项目的打包</h2><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521317175-1a0c3d1c-93fc-438b-8721-13f65af5313a.png"></p><h2 id="将项目上传到服务器"><a href="#将项目上传到服务器" class="headerlink" title="将项目上传到服务器"></a>将项目上传到服务器</h2><ol><li>打开宝塔面板，进入文件管理，我们可以新建一个文件夹专门用来存放我们的后端<code>jar</code>包</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521422107-b31e9c0d-27ca-4d84-b7b3-fb4be3b9616d.png"></p><ol start="2"><li>将我们刚刚打包好的 <code>jar</code> 包上传到文件夹中</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521510734-5da41146-5c53-4295-8366-afd70e08a088.png"></p><ol start="3"><li>来到宝塔“网站”功能里面，点击添加 <code>Java</code> 项目，安装与自己开发对应的 <code>JDK</code></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521653981-eb9b5b9f-4061-45ef-83e6-d44ddb7e7ee1.png"></p><ol start="4"><li>指定我们刚刚上传的 <code>jar</code> 包，指定配置文件和端口</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--spring.profiles.active=prod --server.port=9091</span><br></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521854617-967c8b64-f58c-421d-92fc-c842fbe2bbf5.png"></p><h2 id="启动后端项目"><a href="#启动后端项目" class="headerlink" title="启动后端项目"></a>启动后端项目</h2><ol><li>点击确定后，启动我们的项目就可以了</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746521928996-db160ea9-d502-4975-8cb8-76a28bc5904f.png"></p><ol start="2"><li>可以在设置中查看到我们项目的日志</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746522015790-8da035ba-7b93-4b35-aba9-9d999fc7675c.png"></p><ol start="3"><li>在宝塔面板和服务器安全组放行后端接口</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523066761-8284b554-ee24-454d-96cf-48f3a7a1f42c.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523122726-f0d518ce-e3a5-4359-9325-e12fd76b422a.png"></p><ol start="4"><li>这时候我们就可以访问我们后端的接口，进行测试了</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523259219-d1268ad2-2e74-4962-a5e2-a43be314d60f.png"></p><h1 id="部署前端项目"><a href="#部署前端项目" class="headerlink" title="部署前端项目"></a>部署前端项目</h1><h2 id="更改前端配置"><a href="#更改前端配置" class="headerlink" title="更改前端配置"></a>更改前端配置</h2><p><em><strong>这里的目的就一个</strong>__：让我们前端项目部署到线上后，访问的是我们线上部署的后端项目ip地址和端口，而不是本地开发环境地址</em></p><ol><li>更改 <code>vite.config.ts</code>配置，根据不同的环境访问后端不同的地址<ol><li>可以根据我提供的配置文件进行修改</li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746522367796-df7ccf3b-7b7b-499b-b12e-a1bb1841bef0.png"></p><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// https://vite.dev/config/</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="title function_">defineConfig</span>(<span class="function">(<span class="params">&#123; command, mode &#125;</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 根据当前工作目录中的 `mode` 加载 .env 文件</span></span><br><span class="line">  <span class="keyword">const</span> env = <span class="title function_">loadEnv</span>(mode, process.<span class="title function_">cwd</span>())</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 定义不同环境的API地址</span></span><br><span class="line">  <span class="keyword">const</span> apiUrl = &#123;</span><br><span class="line">    <span class="attr">development</span>: <span class="string">&#x27;http://localhost:8004/api&#x27;</span>,</span><br><span class="line">    <span class="attr">production</span>: <span class="string">&#x27;http://your_ip:9091/api&#x27;</span>, <span class="comment">// 替换为你的生产环境API地址</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> &#123;</span><br><span class="line">    <span class="attr">plugins</span>: [<span class="title function_">vue</span>(), <span class="title function_">vueDevTools</span>()],</span><br><span class="line">    <span class="attr">resolve</span>: &#123;</span><br><span class="line">      <span class="attr">alias</span>: &#123;</span><br><span class="line">        <span class="string">&#x27;@&#x27;</span>: <span class="title function_">fileURLToPath</span>(<span class="keyword">new</span> <span class="title function_">URL</span>(<span class="string">&#x27;./src&#x27;</span>, <span class="keyword">import</span>.<span class="property">meta</span>.<span class="property">url</span>)),</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">define</span>: &#123;</span><br><span class="line">      <span class="comment">// 注入环境变量</span></span><br><span class="line">      <span class="string">&#x27;import.meta.env.VITE_API_BASE_URL&#x27;</span>: <span class="title class_">JSON</span>.<span class="title function_">stringify</span>(apiUrl[mode <span class="keyword">as</span> keyof <span class="keyword">typeof</span> apiUrl]),</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">server</span>: &#123;</span><br><span class="line">      <span class="attr">proxy</span>: &#123;</span><br><span class="line">        <span class="string">&#x27;/api&#x27;</span>: &#123;</span><br><span class="line">          <span class="attr">target</span>: apiUrl[mode <span class="keyword">as</span> keyof <span class="keyword">typeof</span> apiUrl],</span><br><span class="line">          <span class="attr">changeOrigin</span>: <span class="literal">true</span>,</span><br><span class="line">          <span class="attr">rewrite</span>: <span class="function">(<span class="params">path</span>) =&gt;</span> path.<span class="title function_">replace</span>(<span class="regexp">/^\/api/</span>, <span class="string">&#x27;&#x27;</span>),</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">build</span>: &#123;</span><br><span class="line">      <span class="attr">outDir</span>: <span class="string">&#x27;dist&#x27;</span>, <span class="comment">// 构建输出目录</span></span><br><span class="line">      <span class="attr">assetsDir</span>: <span class="string">&#x27;assets&#x27;</span>, <span class="comment">// 静态资源目录</span></span><br><span class="line">      <span class="attr">minify</span>: <span class="string">&#x27;terser&#x27;</span>, <span class="comment">// 压缩方式</span></span><br><span class="line">      <span class="attr">terserOptions</span>: &#123;</span><br><span class="line">        <span class="attr">compress</span>: &#123;</span><br><span class="line">          <span class="attr">drop_console</span>: <span class="literal">true</span>, <span class="comment">// 生产环境去除 console</span></span><br><span class="line">          <span class="attr">drop_debugger</span>: <span class="literal">true</span>, <span class="comment">// 生产环境去除 debugger</span></span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">rollupOptions</span>: &#123;</span><br><span class="line">        <span class="attr">output</span>: &#123;</span><br><span class="line">          <span class="attr">chunkFileNames</span>: <span class="string">&#x27;assets/js/[name]-[hash].js&#x27;</span>,</span><br><span class="line">          <span class="attr">entryFileNames</span>: <span class="string">&#x27;assets/js/[name]-[hash].js&#x27;</span>,</span><br><span class="line">          <span class="attr">assetFileNames</span>: <span class="string">&#x27;assets/[ext]/[name]-[hash].[ext]&#x27;</span>,</span><br><span class="line">        &#125;,</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"></span><br></pre></td></tr></table></figure><ol start="2"><li>更改配置好的<code>axios</code>配置文件</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746522583042-0c710fb6-4b30-4099-8fbb-5d019ddd1154.png"></p><figure class="highlight typescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 根据环境变量获取API基础地址</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">getBaseUrl</span> = (<span class="params"></span>) =&gt; &#123;</span><br><span class="line">  <span class="comment">// 开发环境</span></span><br><span class="line">  <span class="keyword">if</span> (<span class="keyword">import</span>.<span class="property">meta</span>.<span class="property">env</span>.<span class="property">DEV</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;http://localhost:8004/api&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  <span class="comment">// 生产环境</span></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">import</span>.<span class="property">meta</span>.<span class="property">env</span>.<span class="property">VITE_API_BASE_URL</span> || <span class="string">&#x27;http://localhost:8004/api&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 创建 Axios 实例</span></span><br><span class="line"><span class="keyword">const</span> myAxios = axios.<span class="title function_">create</span>(&#123;</span><br><span class="line">  <span class="attr">baseURL</span>: <span class="title function_">getBaseUrl</span>(),</span><br><span class="line">  <span class="attr">timeout</span>: <span class="number">60000</span>,</span><br><span class="line">  <span class="attr">withCredentials</span>: <span class="literal">true</span>,</span><br><span class="line">&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 全局请求拦截器</span></span><br><span class="line">myAxios.<span class="property">interceptors</span>.<span class="property">request</span>.<span class="title function_">use</span>(</span><br><span class="line">  <span class="keyword">function</span> (<span class="params">config</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> config</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="keyword">function</span> (<span class="params">error</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title class_">Promise</span>.<span class="title function_">reject</span>(error)</span><br><span class="line">  &#125;,</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 全局响应拦截器</span></span><br><span class="line">myAxios.<span class="property">interceptors</span>.<span class="property">response</span>.<span class="title function_">use</span>(</span><br><span class="line">  <span class="keyword">function</span> (<span class="params">response</span>) &#123;</span><br><span class="line">    ......</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="keyword">function</span> (<span class="params">error</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title class_">Promise</span>.<span class="title function_">reject</span>(error)</span><br><span class="line">  &#125;,</span><br><span class="line">)</span><br></pre></td></tr></table></figure><h2 id="进行打包"><a href="#进行打包" class="headerlink" title="进行打包"></a>进行打包</h2><ol><li>若我们项目中使用了<code>TypeScript</code>在打包时可能会报错，我们可以直接使用<code>vite build</code>进行打包，跳过TS所报的一些语法上的错误<ol><li>在<code>package.json</code>配置文件中将<code>build</code>命令改为<code>vite build</code></li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746522798742-9f891696-5220-4421-ab06-e585374a5ced.png"></p><ol start="2"><li>打包成功后会出现<code>dist</code>目录，这就是我们打包的结果<ol><li>还是同后端打包结果一样，在文件资源管理器中打开</li></ol></li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm run build</span><br></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746522912792-3d108a3d-fcc1-4caf-8517-b7cbd8eaa1bf.png"></p><h2 id="宝塔新建站点"><a href="#宝塔新建站点" class="headerlink" title="宝塔新建站点"></a>宝塔新建站点</h2><ol><li>新建站点</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523531077-fa716a57-f937-4b15-8401-b9f8b0892413.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523635536-e5733034-4acf-4ff4-8810-34e7c7d9caec.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523721814-1cc2f706-9fc6-4b3e-b6ca-283aba631374.png"></p><ol start="2"><li>配置伪静态代码</li></ol><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">  if (!-e $request_filename) &#123;</span><br><span class="line">    rewrite  ^(.*)$ /index.html?s=/$1  last;</span><br><span class="line">    break;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523772474-eead9053-10d8-4f59-bd9e-32080cb05bca.png"></p><ol start="3"><li>上传打包得到<code>dist</code>文件<ol><li>打开我们刚才建站的目录</li></ol></li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523835308-a362652f-ae6a-4389-9ee2-309e6394c6ad.png"></p><pre><code>2. 上传打包得到的`dist`文件</code></pre><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523906001-35d635e1-a9ff-4b76-b696-7e1dda34713a.png"></p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746523926576-ac3543cb-a9f2-40e1-8e53-21bf760f5baf.png"></p><ol start="4"><li>修改访问站点的目录</li></ol><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746524081657-4e859018-a598-4a29-ba7b-6b3b9bba3db1.png"></p><ol start="5"><li>这里和后端部署一样，需要放行我们的端口</li></ol><h2 id="进行测试"><a href="#进行测试" class="headerlink" title="进行测试"></a>进行测试</h2><p>成功了！！！</p><p>注：后端设置的跨域需要自己设置</p><p><img src="https://cdn.nlark.com/yuque/0/2025/png/47956170/1746530397000-47a5e161-ed15-4265-b9f4-873b83222ab7.png"></p><hr>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/05/22/hello-world/</url>
+    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+
+#include&lt;iostream&gt;using namespace std;int main() &#123;	return 0;&#125;
+
+More info: Writing
+Run server$ hexo server
+
+More info: Server
+Generate static files$ hexo generate
+
+More info: Generating
+Deploy to remote sites$ hexo deploy
+
+More info: Deployment
+]]></content>
+  </entry>
+  <entry>
+    <title>保姆级使用宝塔部署前后端分离项目</title>
+    <url>/2025/05/07/%E4%BF%9D%E5%A7%86%E7%BA%A7%E4%BD%BF%E7%94%A8%E5%AE%9D%E5%A1%94%E9%83%A8%E7%BD%B2%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB%E9%A1%B9%E7%9B%AE/</url>
+    <content><![CDATA[服务器安装宝塔面板安装 Python若安装报错没有Python的话需要先安装Python
+输入以下命令检查是否已经安装 Python3：
+python3 --version
+
+
+如果输出显示 Python 版本号（例如 Python 3.8.10 或 Python 3.10.12），说明系统已安装 Python 3。
+如果显示错误信息（如 &#96;command not found），则需要安装 Python 3。
+
+使用 APT 从默认存储库安装 Python 3
+
+更新系统包列表：
+
+sudo apt update
+
+
+安装 &#96;Python 3：
+
+sudo apt install python3 -y
+
+
+验证安装
+
+python3 --version
+
+
+安装宝塔面板
+我服务器安装的是Ubuntu 20.04系统，对应的系统安装命令可以去 宝塔面板 获取
+
+wget -O install_panel.sh https://download.bt.cn/install/install_panel.sh &amp;&amp; sudo bash install_panel.sh ed8484bec
+
+
+
+安装完成之后会给出安装完成信息
+
+
+
+去服务器安全组控制台放行端口
+
+
+
+到这里我们就可以访问外网 ipv4 面板地址根据账号和密码进行登录宝塔面板了
+
+
+配置宝塔面板
+找到软件商店，安装这些软件
+根据自己的需求选择安装软件，这里只是以我的需求为例
+
+
+
+
+
+宝塔和服务器安全组都需要对我们所需的端口进行放行
+
+
+
+现在宝塔的配置基本上差不多了，接下里就是部署项目了
+部署后端项目修改后端配置文件
+新建一个 application-prod.yml线上配置文件
+指定线上环境运行端口和配置文件所处环境
+
+
+
+
+
+将之前的application.yml配置文件改为 application-dev.yml作为本地运行环境的配置文件
+指定本地运行环境端口和指定该配置文件所处环境，参考上方图片
+
+
+
+
+
+新建application.yml配置文件用于指定使用具体的配置文件
+
+
+现在进行项目的打包
+将项目上传到服务器
+打开宝塔面板，进入文件管理，我们可以新建一个文件夹专门用来存放我们的后端jar包
+
+
+
+将我们刚刚打包好的 jar 包上传到文件夹中
+
+
+
+来到宝塔“网站”功能里面，点击添加 Java 项目，安装与自己开发对应的 JDK
+
+
+
+指定我们刚刚上传的 jar 包，指定配置文件和端口
+
+--spring.profiles.active=prod --server.port=9091
+
+
+启动后端项目
+点击确定后，启动我们的项目就可以了
+
+
+
+可以在设置中查看到我们项目的日志
+
+
+
+在宝塔面板和服务器安全组放行后端接口
+
+
+
+
+这时候我们就可以访问我们后端的接口，进行测试了
+
+
+部署前端项目更改前端配置这里的目的就一个__：让我们前端项目部署到线上后，访问的是我们线上部署的后端项目ip地址和端口，而不是本地开发环境地址
+
+更改 vite.config.ts配置，根据不同的环境访问后端不同的地址
+可以根据我提供的配置文件进行修改
+
+
+
+
+// https://vite.dev/config/export default defineConfig((&#123; command, mode &#125;) =&gt; &#123;  // 根据当前工作目录中的 `mode` 加载 .env 文件  const env = loadEnv(mode, process.cwd())  // 定义不同环境的API地址  const apiUrl = &#123;    development: &#x27;http://localhost:8004/api&#x27;,    production: &#x27;http://your_ip:9091/api&#x27;, // 替换为你的生产环境API地址  &#125;  return &#123;    plugins: [vue(), vueDevTools()],    resolve: &#123;      alias: &#123;        &#x27;@&#x27;: fileURLToPath(new URL(&#x27;./src&#x27;, import.meta.url)),      &#125;,    &#125;,    define: &#123;      // 注入环境变量      &#x27;import.meta.env.VITE_API_BASE_URL&#x27;: JSON.stringify(apiUrl[mode as keyof typeof apiUrl]),    &#125;,    server: &#123;      proxy: &#123;        &#x27;/api&#x27;: &#123;          target: apiUrl[mode as keyof typeof apiUrl],          changeOrigin: true,          rewrite: (path) =&gt; path.replace(/^\/api/, &#x27;&#x27;),        &#125;,      &#125;,    &#125;,    build: &#123;      outDir: &#x27;dist&#x27;, // 构建输出目录      assetsDir: &#x27;assets&#x27;, // 静态资源目录      minify: &#x27;terser&#x27;, // 压缩方式      terserOptions: &#123;        compress: &#123;          drop_console: true, // 生产环境去除 console          drop_debugger: true, // 生产环境去除 debugger        &#125;,      &#125;,      rollupOptions: &#123;        output: &#123;          chunkFileNames: &#x27;assets/js/[name]-[hash].js&#x27;,          entryFileNames: &#x27;assets/js/[name]-[hash].js&#x27;,          assetFileNames: &#x27;assets/[ext]/[name]-[hash].[ext]&#x27;,        &#125;,      &#125;,    &#125;,  &#125;&#125;)
+
+
+更改配置好的axios配置文件
+
+
+// 根据环境变量获取API基础地址const getBaseUrl = () =&gt; &#123;  // 开发环境  if (import.meta.env.DEV) &#123;    return &#x27;http://localhost:8004/api&#x27;  &#125;  // 生产环境  return import.meta.env.VITE_API_BASE_URL || &#x27;http://localhost:8004/api&#x27;&#125;// 创建 Axios 实例const myAxios = axios.create(&#123;  baseURL: getBaseUrl(),  timeout: 60000,  withCredentials: true,&#125;)// 全局请求拦截器myAxios.interceptors.request.use(  function (config) &#123;    return config  &#125;,  function (error) &#123;    return Promise.reject(error)  &#125;,)// 全局响应拦截器myAxios.interceptors.response.use(  function (response) &#123;    ......  &#125;,  function (error) &#123;    return Promise.reject(error)  &#125;,)
+
+进行打包
+若我们项目中使用了TypeScript在打包时可能会报错，我们可以直接使用vite build进行打包，跳过TS所报的一些语法上的错误
+在package.json配置文件中将build命令改为vite build
+
+
+
+
+
+打包成功后会出现dist目录，这就是我们打包的结果
+还是同后端打包结果一样，在文件资源管理器中打开
+
+
+
+npm run build
+
+
+宝塔新建站点
+新建站点
+
+
+
+
+
+配置伪静态代码
+
+location / &#123;  if (!-e $request_filename) &#123;    rewrite  ^(.*)$ /index.html?s=/$1  last;    break;  &#125;&#125;
+
+
+
+上传打包得到dist文件
+打开我们刚才建站的目录
+
+
+
+
+2. 上传打包得到的`dist`文件
+
+
+
+
+修改访问站点的目录
+
+
+
+这里和后端部署一样，需要放行我们的端口
+
+进行测试成功了！！！
+注：后端设置的跨域需要自己设置
+
+
+]]></content>
       <categories>
-          
-          <category> 部署 </category>
-          
+        <category>部署</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 部署 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>部署</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/05/23/test/</url>
+    <content><![CDATA[hello]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test1</title>
+    <url>/2025/05/23/test1/</url>
+    <content><![CDATA[1111-test]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
 </search>
